@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.maincontainer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.maincontainer h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.maincontainer .bulb-off-img{
+    width: 230px;
+    height: 350px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.maincontainer .btn button{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+
+}
+.maincontainer .btn{
+    display: flex;
+    gap: 20px;
+}
+.maincontainer .btn button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 179, 2);
+}
